@@ -1,6 +1,6 @@
 # Entrance Exam Scheduling and Evaluation System (Backend)
 
-This is the backend implementation of the Entrance Exam Scheduling and Evaluation System developed for Samar State University. Built with .NET 8, the system follows Clean Architecture principles and leverages CQRS, MediatR, JWT authentication with refresh tokens, and xUnit for testing. Admins can create exam schedules, and applicants can select their preferred schedules online. While the exam and interview are conducted in person, results are recorded in the system, automating score computation and determining pass/fail status.
+This is the backend implementation of the Entrance Exam Scheduling and Evaluation System developed for Samar State University. Built with .NET 8, the system follows Clean Architecture principles and leverages CQRS, MediatR, JWT authentication with refresh tokens, and xUnit for testing. Admins can create exam schedules, and applicants can select their preferred schedules online. The system records results and automates score computation to determine pass/fail status.
 ## Key Features:
 - **Schedule Management**: Admins can create, update, and delete exam schedules (date, time, venue, and slots).
 - **Applicant Scheduling**: Applicants can select their preferred schedule based on availability.
